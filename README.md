@@ -1,3 +1,7 @@
+A demonstration of a dask problem described in https://github.com/dask/dask-cloudprovider/issues/68.
+
+The problem is fixed by [4d43d46023df22865a912b6225dc2ee517a49797](https://github.com/dandavison/dask-cloud-provider-problem/commit/4d43d46023df22865a912b6225dc2ee517a49797).
+
 ```
 pip install -r requirements.txt
 python dask_cloudprovider_bug_minimal_example.py  # This will work
